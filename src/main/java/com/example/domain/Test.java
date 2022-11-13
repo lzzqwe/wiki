@@ -9,6 +9,15 @@ public class Test {
         return id;
     }
 
+    @Override
+    public String toString() {
+        return "Test{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }

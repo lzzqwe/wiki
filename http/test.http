@@ -6,7 +6,7 @@ POST http://localhost:8081/hello/post
 Content-Type: application/x-www-form-urlencoded
 
 name=sdsaddff
-
 ###
-GET http://localhost:8081/list
+GET http://localhost:8888/ebook/list
 #Accept: application/json
+
